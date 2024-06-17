@@ -1,0 +1,435 @@
+body{
+    background-color: whitesmoke;
+    align-items:center;
+}
+
+#div1{
+    border:1px solid black;
+    position:absolute;
+    left:100px;
+    top:40px;
+    height:600px;
+    width:530px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,1);
+    box-shadow: 10px 10px 8px 5px rgb(100, 100, 100);
+}
+
+#div2{
+    position:absolute;
+    left:190px;
+    height:29px;
+    top:0px;
+    width:150px;
+    border:none;
+    border-radius:8px;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   background-color: rgba(0,0,0,0.8);
+}
+
+#div1:hover{
+       background-color: white;
+       transition: 0.4s;
+       box-shadow: 0px 0px 20px 20px gray;
+       border-radius:20px;
+       border:none;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+}
+
+#logo{
+    position:absolute;
+    top:400px;
+    left:220px;
+    cursor:default;
+}
+
+#creators{
+    position: absolute;
+    top: 500px;
+    left:160px;
+    cursor:default;
+}
+
+#launcher{
+    position:absolute;
+    left: 145px;
+    top:100px ;
+    color:white;
+    cursor:default;
+}
+#user{
+    position: absolute;
+    left: 250px;
+    top:500px;
+    cursor:default;
+}
+
+#div3{
+    border:1px solid black;
+    position:absolute;
+    left:20px;
+    top:50px;
+    height:150px;
+    width:150px;
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+
+#google{
+   height:70px;
+   width:200px;
+   position:absolute;
+   left:200px;
+   top:140px;
+   display:none;
+   transition: 0.1s;
+   border-radius: 50px;
+   
+}
+
+#div1:hover #google{
+    display:block;
+   transition-duration: 0.40s;
+}
+
+#jas{
+    position:absolute;
+    left:20px;
+    top:30px;
+}
+
+
+
+#note{
+    position:absolute;
+    left:950px;
+    top:600px;
+    filter:drop-shadow(5px 5px 5px 2px gray);
+}
+
+#note:hover{
+    color:rgb(161, 66, 66);
+}
+
+#ast{
+    height:50px;
+    width:50px;
+    border-radius:10px;
+    position:absolute;
+    left:30px;
+    top:260px;
+    display:none;
+    cursor: crosshair;
+   
+}
+
+#div1:hover #ast{
+    display:block;
+}
+#apps{
+    position: absolute;
+    left:30px;
+    top:310px;
+}
+
+#fman{
+   height:50px;
+   width:50px;
+   border-radius:5px;
+   position:absolute;
+   left:160px;
+   top:260px;
+   display:none;
+   
+}
+
+#div1:hover #fman{
+    display:block;
+}
+
+#fileman{
+    position:absolute;
+    left:160px;
+    top:310px;
+}
+
+#set{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    position:absolute;
+    left:300px;
+    top:260px;
+    display:none;
+   
+}
+
+#div1:hover #set{
+    display:block;
+}
+
+#sting{
+    position:absolute;
+    left:305px;
+    top:310px;
+}
+
+#watch{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    position: absolute;
+    left:435px;
+    top:260px;
+    display:none;
+}
+
+#div1:hover #watch{
+    display:block;
+}
+
+#wch{
+    position:absolute;
+    left:445px;
+    top:310px;
+}
+
+#gall{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+    position:absolute;
+    left:30px;
+    top:380px;
+    display:none;
+}
+
+#div1:hover #gall{
+    display:block;
+}
+
+#gallery{
+    position: absolute;
+    top:430px;
+    left:40px;
+
+}
+
+#subway{
+    height:50px;
+    width:50px;
+    border-radius:10px;
+    position:absolute;
+    left:160px;
+    top:380px;
+    display:none;
+}
+
+#div1:hover #subway{
+    display:block;
+}
+
+#subw{
+    position:absolute;
+    left:150px;
+    top:430px;
+}
+
+#ytu{
+    height:45px;
+    width:60px;
+    border-radius: 10px;
+    position:absolute;
+    left:300px;
+    top:380px;
+    display:none;
+}
+
+#div1:hover #ytu{
+    display:block;
+}
+
+#youtube{
+    position:absolute;
+    left:308px;
+    top:430px;
+}
+
+#nt{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    position:absolute;
+    left:435px;
+    top:380px;
+    display:none;
+
+}
+
+#div1:hover  #nt{
+
+    display:block;
+}
+
+#nto{
+    position:absolute;
+    left:445px;
+    top:430px;
+}
+
+#wht{
+    height:55px;
+    width:55px;
+    position:absolute;
+    left:30px;
+    top:500px;
+    display:none;
+
+}
+
+#div1:hover #wht{
+    display:block;
+}
+
+
+
+#wtapp{
+    position:absolute;
+    left:30px;
+    top:550px;
+}
+
+#mes{
+    height:55px;
+    width:55px;
+    border-radius:10px;
+    position:absolute;
+    left:160px;
+    top:500px;
+    display:none;
+}
+
+#div1:hover #mes{
+    display:block;
+}
+
+
+#mesg{
+    position:absolute;
+    left:159px;
+    top:555px;
+}
+
+#face{
+    height:55px;
+    width:55px;
+    position:absolute;
+    left:308px;
+    top:500px;
+    border-radius:50px;
+    display:none;
+}
+
+#div1:hover #face{
+    display:block;
+}
+
+#book{
+
+    position:absolute;
+    left:309px;
+    top:555px;
+
+}
+
+#mc{
+    height:50px;
+    width:50px;
+    position:absolute;
+    left:435px;
+    top:505px;
+    display:none;
+    border-radius: 10px;;
+}
+
+#div1:hover #mc{
+    display:block;
+}
+
+#musi{
+    position:absolute;
+    left:445px;
+    top:555px;
+}
+
+#log{
+    height:25px;
+    width:25px;
+    border-radius: 20px;
+    position: absolute;
+    left:498px;
+    top:5px;
+    display:none;
+}
+
+#div1:hover #log{
+    display:block;
+}
+
+#lvx{
+    position:absolute;
+    left:435px;
+    top:13px;
+    cursor:default;
+}
+
+#log2{
+
+    height:70px;
+    width:60px;
+    position:absolute;
+    left:250px;
+    top:250px;
+    border-radius: 20px;
+    display:block;
+    transition: 0.5s;
+    cursor:alias;
+
+}
+
+#div1:hover #log2{
+    display:none;
+    transition: 0.5s;
+}
+
+#button{
+
+    position: absolute;
+    left:1000px;
+    top:500px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border:1px solid rgb(99, 98, 98);
+    box-shadow:0px 0px 5px 3px gray;
+    font-weight: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+}
+
+#button:hover{
+    
+    background-color: black;
+    color:white;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 6px 10px  5px gray;
+    border-radius: 25px;
+    font-size: x-large;
+
+
+}
+
